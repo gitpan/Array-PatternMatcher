@@ -4,5 +4,5 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Array::PatternMatcher',
     'VERSION_FROM'	=> 'PatternMatcher.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> { 'Carp::Datum' => 0.1 }, # e.g., Module::Name => 1.1
 );
